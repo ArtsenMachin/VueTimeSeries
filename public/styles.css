@@ -1,0 +1,280 @@
+.color{
+    color: #7097fc;
+    color: #d891ec;
+    color: #FF5757;
+}
+
+body,html{
+    height:100%;
+    background-color: #FFFAFB !important;
+    color:#000814;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+.homepage{
+	padding: 0 0px 0px;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-size: 16px;
+}
+
+.content_container{
+    min-height: 80vh !important;
+}
+
+.navbar{
+    background-color: #FDFDFF;
+    -webkit-box-shadow: 57px 9px 56px -58px rgba(34, 60, 80, 0.23);
+    -moz-box-shadow: 57px 9px 56px -58px rgba(34, 60, 80, 0.23);
+    box-shadow: 57px 9px 56px -58px rgba(34, 60, 80, 0.23);
+    margin-top: 0px;
+    padding-top: 0;
+    vertical-align:top;
+    display:inline-block;
+    min-height: 80vh !important;
+}
+@media (max-width: 992px) {
+    .navbar{
+        min-height: 0vh !important;
+        display:inline-block !important;
+    }
+}
+
+a{
+    color: #000814 !important;
+    text-decoration: none !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.logo{
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 36px;
+}
+
+.menu_btn{
+    background-color: transparent;
+}
+
+.menu_btn:hover{
+    color:#FFC300 !important;
+}
+
+.menuHeader{
+    margin: 0 auto !important;
+    color: #d891ec !important;
+}
+
+.menu_icon{
+    font-size: 36px;
+}
+
+.oglavlenie{
+    font-size: 36px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.card{
+    background-color: #FDFDFF !important;
+    border-radius: 5px;
+    border-color: #FDFDFF;
+    -webkit-box-shadow: -4px 10px 22px -5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -4px 10px 22px -5px rgba(34, 60, 80, 0.2);
+    box-shadow: -4px 10px 22px -5px rgba(34, 60, 80, 0.2);
+    width: 100% !important;
+}
+.statusType{
+    font-size: 36px;
+    color:#7097fc;
+}
+.bigYell{
+    font-size: 48px;
+    color:#FFC300;
+}
+.bigViol{
+    color:#d891ec;
+}
+.bigBlue{
+    color:#7097fc;
+}
+.dashboardIcon{
+    font-size: 36px;
+    width: 72px;
+    height: 72px;
+    background-color: #003566;
+    color: #FFC300; 
+    border-color: #003566;
+    border-radius: 50%;
+    margin: 0 auto !important;
+}
+.dashboardText__head i{
+    color:#FFC300;
+}
+.icon{
+    margin-top: 18px !important;
+}
+.dashboardText{
+    font-size: 24px;
+}
+.dashboardText__head{
+    color:#003566;
+}
+.form-group{
+    margin-top: 10px;
+}
+.size{
+    font-size: 24px !important;
+}
+
+.btn{
+    background: transparent;
+    border: 2px solid #FDFDFF;
+    border-radius: 5px;
+    color: #FDFDFF;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: #FDFDFF;
+    color: #003566;
+}
+
+.btn-funct{
+    border: 2px solid #7097fc !important;
+    background-color: #7097fc !important;
+    color: #FDFDFF !important;
+    width: 40% !important;
+}
+.btn-funct a{
+    color: #FDFDFF !important;
+}
+.btn-funct:hover{
+    background-color: transparent !important;
+    color: #7097fc !important;
+}
+.btn-funct:hover a{
+    color: #7097fc !important;
+}
+.built-btn{
+    width: 30%;
+}
+
+.btn-xls{
+    background: #29ad67;
+    border: 2px solid #29ad67;
+    color:#FFFAFB;
+}
+.btn-xls:hover{
+    color: #29ad67;
+    background-color: #FDFDFF;
+}
+.row-flex, .row-flex > div[class*='col-']{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto; 
+}
+
+  #cardblock1, #cardblock2, #cardblock3{
+    background-position: right top !important;
+  }
+  #cardblock1:hover, #cardblock2:hover, #cardblock3:hover{
+    background-size: 80px;
+  }
+  #cardblock1{
+    background: url('https://cdn.discordapp.com/attachments/831887490309816321/839269907698417734/rect1.png') no-repeat;
+  }
+  #cardblock1 .statusType{
+      color:#FFC300;
+  }
+  #cardblock2{
+    background: url('https://cdn.discordapp.com/attachments/831887490309816321/839269910940483633/rect2.png') no-repeat;
+  }
+  #cardblock2 .statusType{
+    color:#d891ec;
+  }
+  #cardblock3{
+    background: url('https://cdn.discordapp.com/attachments/831887490309816321/839269903932456960/rect3.png') no-repeat;
+  }
+  #cardblock3 .statusType{
+    color:#FF5757;
+  }
+  
+  .white{
+    color: #FDFDFF;
+  }
+  .dropdown{
+      font-size: 24px;
+  }
+ .inputs{
+    margin-left: 0 !important;
+    border: 0 !important;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.158) !important;
+    border-radius: 0 !important;
+    color:black !important;
+    font-size: large;
+  }
+ #etrance_container  #registr{
+      background-image: url(../static/image/layered-waves-haikeireg.svg);
+      background-position: left;
+      background-repeat: no-repeat;
+  }
+  #etrance_container #log{
+    background-image: url(../static/image/layered-waves-haikei.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+  .InputHead{
+      font-size: 24px;
+  }
+  .InputHead i{
+      color:#2f65ee;
+  }
+  #registr .InputHead i{
+    color:#FF5757;
+  }
+  #registr .btn-funct{
+      border-color: #FF5757;
+      background-color: #FF5757;
+  }
+  #registr .btn-funct:hover{
+      color:#FF5757;
+      background-color: transparent;
+  }
+  #login_container, #registr_container{
+      color:#FFC300;
+  }
+  #login_container:hover{
+      color:#7097fc !important;
+  }
+  #registr_container:hover{
+      color:#FF5757 !important;
+  }
+  @media  (max-width: 1024px) { 
+    #login_container .menu_icon, #registr_container .menu_icon{
+        font-size: 24px !important;
+    }
+    .btn-funct{
+        width: 50% !important;
+    }
+    #etrance_container  #registr{
+        background-image: url(../static/image/rect3.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 60px;
+    }
+    #etrance_container #log{
+      background-image: url(../static/image/rect4.png);
+      background-size: 60px;
+      background-position: right top;
+      background-repeat: no-repeat;
+    }
+  }
